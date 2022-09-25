@@ -1,3 +1,23 @@
 .idea
 base-test-api/.pytest_cache
 base-test-api/Pipfile.lock
+
+# terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfvars
+.terraformrc
+terraform.rc
+
+# code editor files
+*.vim
+
+#others
+crash.log
