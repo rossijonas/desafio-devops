@@ -7,6 +7,7 @@ on:
 env:
   PROJECT_ID: spartan-apricot-363417
   GAR_LOCATION: us-west1
+  SERVICE: base-test-api
 
 jobs:
   deploy:
