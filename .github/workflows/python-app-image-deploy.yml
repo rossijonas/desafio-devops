@@ -9,6 +9,10 @@ env:
   GAR_LOCATION: us-west1
   SERVICE: base-test-api
 
+defaults:
+  run:
+    working-directory: base-test-api
+
 jobs:
   deploy:
     # Add 'id-token' with the intended permissions for workload identity federation
