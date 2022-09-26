@@ -1,7 +1,7 @@
 # Create Artifact Registry Repository
 resource "google_artifact_registry_repository" "base-test-api" {
   location      = var.region
-  repository_id = "base-test-api-compute-engine"
+  repository_id = "base-test-api"
   description   = "Host base-test-api docker image"
   format        = "DOCKER"
 }
