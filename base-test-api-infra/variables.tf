@@ -22,5 +22,5 @@ variable "service_name" {
 variable "container_image" {
   description = "Container image containing the service"
   type        = string
-  default     = "base-test-api"
+  default     = "rossijonas/desafio-devops"
 }
