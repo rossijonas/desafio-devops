@@ -1,11 +1,3 @@
-# Create Artifact Registry Repository
-resource "google_artifact_registry_repository" "base-test-api" {
-  location      = var.region
-  repository_id = "base-test-api"
-  description   = "Host base-test-api docker image"
-  format        = "DOCKER"
-}
-
 # Create a single Compute Engine instance
 resource "google_compute_instance" "default" {
   name         = "flask-vm"
